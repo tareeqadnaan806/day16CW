@@ -24,7 +24,7 @@ const data = JSON.parse(localStorage.getItem("user data"));
 
 document.getElementById("fname").innerText = data.fname;
 document.getElementById("lname").innerText = data.lname;
-document.getElementById("phn").innerText = data.phn;
+document.getElementById("phn").innerText = data.pno;
 document.getElementById("village").innerText = data.village;
 document.getElementById("city").innerText = data.city;
 document.getElementById("state").innerText = data.state;
